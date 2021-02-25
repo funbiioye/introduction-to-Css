@@ -1,0 +1,83 @@
+header{
+  text-align: center;
+  padding: 10px 15px;
+  color: black;
+  font-family: Chelsea market, cursive;
+  background-color: #e4572e;
+  font-size: 35px;
+  text-shadow: 2px 2px white;
+  place-items: center;
+}
+
+.header-2{
+  text-align: center;
+  font-family:  Gamja flower, cursive;
+  font-size: 30px;
+  color:white;
+  text-shadow: 2px 2px #e4572e ;
+}
+
+body{
+    font-size: 15px;
+    font-family:Gamja flower, cursive;
+    background-color: #fffff2;
+
+}
+
+.box-1{
+    border: 4px solid #050401;
+    box-shadow: 3px 3px #e4572e;
+    padding: 10px;
+  
+}
+
+
+.box-2{
+    border: 4px solid #050401;
+    box-shadow: 3px 3px #e4572e;
+    padding: 10px;
+} 
+
+.header-3{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+article p{
+    padding: 5px;
+}
+
+article p:nth-child(2){
+  float: right;
+  margin:-5% 5px 0px 5px;
+  
+}
+
+article:nth-child(2){
+    margin-bottom: 30px;
+}
+
+footer{
+     padding :10px 0px 50px 0px;
+     text-align: center;
+}
+
+footer form input{
+    border-left: 4px solid gray; 
+    border-top: 4px solid  gray;
+    border-radius: 3px;
+    box-shadow: 3px 3px 0 0 #e4572e; 
+}
+
+footer form input[type=submit]{
+    border: 4px solid lightgray;
+    border-radius: 3px;
+    box-shadow: 3px 3px 0 0 #e4572e; 
+}
+
+footer form p{
+    display: inline;
+    margin: 1px;
+}
+
+
